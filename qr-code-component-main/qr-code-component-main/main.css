@@ -1,0 +1,46 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    background-color: aquamarine;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .qrcode {
+    width: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1, p {
+
+    margin: 20px;
+    text-align: center;
+  }
+
+  
