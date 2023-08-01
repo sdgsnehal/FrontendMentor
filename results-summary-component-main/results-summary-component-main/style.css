@@ -1,0 +1,62 @@
+@font-face {
+    font-family: HankenGrotexk-Bold;
+    src: url('./assets/fonts/static/HankenGrotesk-Bold.ttf');
+}
+@font-face {
+    font-family:HankenGrotexk-ExtraBold ;
+    src: url('./assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}
+@font-face {
+    font-family:HankenGrotexk-medium ;
+    src: url('./assets/fonts/static/HankenGrotesk-Medium.ttf');
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+    height: 100vh;
+    
+}
+.grid-container{
+    display: flex;
+    flex-direction: row;
+  
+
+
+    
+}
+.grid-item1{
+    display: flex;
+    flex-direction: column;
+    background-color:#4433f1 ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 250px;
+
+}
+.grid-item2{
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border-radius:0 30px 30px 0;
+
+}
+.summary{
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+
+}
+.summary-icon{
+    display: flex;
+    flex-direction: row;
+}
+/* h1,h3,p{
+    font-family:HankenGrotexk-medium ;
+    color: white;
+} */
