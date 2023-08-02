@@ -21,6 +21,8 @@
 .grid-container{
     display: flex;
     flex-direction: row;
+    box-shadow: 10px 10px 10px lightblue;
+
   
 
 
@@ -34,29 +36,89 @@
     align-items: center;
     border-radius: 30px;
     width: 250px;
-
+    padding: 30px;
+    
 }
 .grid-item2{
     display: flex;
     flex-direction: column;
-    background-color: ;
+    background-color: white;
     justify-content: center;
     align-items: center;
     width: 250px;
-    border-radius:0 30px 30px 0;
+    
+    padding: 30px;
+    
 
+}
+.grid-item1 h2{
+    font-family:HankenGrotexk-Bold;
+    color: white;
+}
+.grid-item1 p{
+    font-family:HankenGrotexk-medium;
+    text-align: center;
+    color: white;
 }
 .summary{
    display: flex;
-   flex-direction: row; 
+   flex-direction: row;
    justify-content: space-between;
+   
+   width: 200px; 
+   
 
 }
 .summary-icon{
     display: flex;
     flex-direction: row;
+   
+    gap: 10px;
+    
 }
 /* h1,h3,p{
     font-family:HankenGrotexk-medium ;
     color: white;
 } */
+#reaction  {
+    color: #e29295;
+}
+#reaction,
+#memory{
+    background-color:#fff6f5;
+    border-radius: 2px;
+    font-family:HankenGrotexk-medium ;
+    
+    
+}
+#verbal,
+#visual{
+    background-color: #f2fbfa;
+    font-family:HankenGrotexk-medium ;
+}
+.grid-item1 h3{
+    font-family:HankenGrotexk-medium;
+    color: #d0caff;
+    text-align: center;
+    line-height: 0%;
+  
+
+
+    font-size: 10px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #4925cf;
+    
+}
+.circle h1{
+    font-family:HankenGrotexk-Bold;
+    font-size: 60px;
+    color: white;
+    line-height: 0%;
+    margin-top:70px;
+  
+    text-align: center;
+}
